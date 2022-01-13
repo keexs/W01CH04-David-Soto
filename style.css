@@ -3,8 +3,13 @@
   justify-content: flex-start;
   flex-direction: column;
   background-color: orange;
-  max-width: 700px;
+  max-width: 70%;
   min-height: 1000px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
 }
 
 .header {
@@ -17,24 +22,39 @@
 .header--menu {
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.header--menu li {
+  margin: 10px;
 }
 
 .submenu {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: baseline;
   background-color: orangered;
 }
 
+.submenu--symbol {
+  display: flex;
+  right: 50px;
+}
+
 .items {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   align-items: baseline;
+  margin-right: 100px;
 }
 
 .items ul {
   list-style-type: none;
+  right: 20px;
+}
+
+.items-check {
+  margin-right: 150px;
 }
 
 .separator {
