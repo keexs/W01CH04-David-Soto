@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <link rel="icon" href="./style.css" />
+    <link rel="icon" href="./assets/icon.png" />
+    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Compra-APP-DavidSoto</title>
   </head>
   <body>
-    <header>
-      <h1>Lista de la compra</h1>
-      <ul>
-        <li>Principal</li>
-        <li>Lista</li>
-        <li>Acerca de</li>
-      </ul>
-    </header>
+    <div class="container">
+      <header class="header">
+        <h1 class="header--title">Lista de la compra</h1>
+        <ul class="header--menu">
+          <li>Principal</li>
+          <li>Lista</li>
+          <li>Acerca de</li>
+        </ul>
+      </header>
 
-    <section>
-      <h2>@symbol</h2>
-      <h3>2/3 Comprados</h3>
-    </section>
+      <section class="submenu">
+        <i class="submenu--symbol">@symbol</i>
+        <h2 class="submenu--quantity">2/3 Comprados</h2>
+      </section>
 
-    <main>
-      <ul>
-        <li>Pan</li>
-        <li>Azucar</li>
-        <li>Leche</li>
-      </ul>
-      <ul>
-        <li>0.75€ @symbol</li>
-        <li>@symbol</li>
-        <li>1.20€</li>
-      </ul>
-      <div>----------Ralla guay-----------</div>
-      <p>1.95€</p>
-    </main>
+      <main>
+        <div class="items">
+          <ul>
+            <li>Pan</li>
+            <li>Azucar</li>
+            <li>Leche</li>
+          </ul>
+          <ul>
+            <li>0.75€ @symbol</li>
+            <li>@symbol</li>
+            <li>1.20€</li>
+          </ul>
+        </div>
+        <div class="separator">----------Ralla guay-----------</div>
+        <p class="finalprice">1.95€</p>
+      </main>
+    </div>
   </body>
 </html>
