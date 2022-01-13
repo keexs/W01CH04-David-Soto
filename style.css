@@ -34,11 +34,12 @@ body {
   justify-content: space-around;
   align-items: baseline;
   background-color: orangered;
+  margin: 0;
+  padding: 0;
 }
 
 .submenu--symbol {
   display: flex;
-  right: 50px;
 }
 
 .items {
