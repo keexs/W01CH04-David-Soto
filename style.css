@@ -40,6 +40,8 @@ body {
 
 .submenu--symbol {
   display: flex;
+  position: relative;
+  top: 12px;
 }
 
 .items {
